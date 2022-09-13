@@ -1,11 +1,11 @@
 {
-  "name": "react-router-loading",
+  "name": "@caocong/react-router-loading",
   "version": "1.0.0",
   "description": "Wrapper for react-router that allows you to load data before switching the screen",
   "author": "Victor Trusov",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/victortrusov/react-router-loading.git"
+    "url": "git+https://github.com/caocong1/react-router-loading.git"
   },
   "keywords": [
     "react",
@@ -25,9 +25,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/victortrusov/react-router-loading/issues"
+    "url": "https://github.com/caocong1/react-router-loading/issues"
   },
-  "homepage": "https://github.com/victortrusov/react-router-loading#readme",
+  "homepage": "https://github.com/caocong1/react-router-loading#readme",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
