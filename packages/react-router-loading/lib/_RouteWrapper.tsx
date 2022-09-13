@@ -13,7 +13,7 @@ interface RouteWrapperProps {
 export const RouteWrapper: FC<RouteWrapperProps> = ({ routes, location, navigationType, hidden }) => {
   const element = useRoutes(routes, location);
 
-  return <div style={hidden ? { display: 'none' } : undefined}>
+  return <div style={hidden ? { visibility: 'hidden' } : undefined}>
     {useMemo(
       () => <UNSAFE_LocationContext.Provider value={{ location, navigationType }}>
         {element}
